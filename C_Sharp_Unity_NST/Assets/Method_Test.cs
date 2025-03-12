@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class Method_Test : MonoBehaviour
 {
-    int b = 0;
     void Start()
     {
-        aaa();
-        aaa();
-        aaa();
-        aaa();
-        aaa();
-        Debug.Log(b);
+        aaa(1);
     }
 
     // Update is called once per frame
@@ -20,8 +14,8 @@ public class Method_Test : MonoBehaviour
     {
     }
 
-    void aaa()
+    void aaa(int b)
     {
-        ++b;
+        Debug.Log(b);
     }
 }
