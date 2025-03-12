@@ -4,22 +4,24 @@ using UnityEngine;
 
 public class Method_Test : MonoBehaviour
 {
-    // Start is called before the first frame update
+    int b = 0;
     void Start()
     {
         aaa();
         aaa();
         aaa();
+        aaa();
+        aaa();
+        Debug.Log(b);
     }
 
     // Update is called once per frame
     void Update()
     {
-        aaa();
     }
 
     void aaa()
     {
-        Debug.Log("aaa");
+        ++b;
     }
 }
