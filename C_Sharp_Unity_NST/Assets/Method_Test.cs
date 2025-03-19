@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Method_Test : MonoBehaviour
-{
+{        
+    int b = 0;
     void Start()
     {
-        int b = 0;
         aaa(b);
         aaa(b);
         aaa(b);
