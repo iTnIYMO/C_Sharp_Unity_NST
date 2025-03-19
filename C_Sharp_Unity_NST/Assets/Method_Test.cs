@@ -6,7 +6,12 @@ public class Method_Test : MonoBehaviour
 {        
     void Start()
     {
-        int b = aaa();
+        int b = 0;
+        aaa(b);
+        aaa(b);
+        aaa(b);
+        aaa(b);
+        aaa(b);
         Debug.Log(b);
     }
 
@@ -15,9 +20,8 @@ public class Method_Test : MonoBehaviour
     {
     }
 
-    int aaa()
+    int aaa(int b)
     {
-        return 1;
-        Debug.Log("aaa");
+        return b++;
     }
 }
