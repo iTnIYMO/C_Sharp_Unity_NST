@@ -6,8 +6,8 @@ public class Method_Test : MonoBehaviour
 {        
     void Start()
     {
-        int d = aaa(1,2,3);
-        Debug.Log(d);
+        int b = aaa();
+        Debug.Log(b);
     }
 
     // Update is called once per frame
@@ -15,8 +15,9 @@ public class Method_Test : MonoBehaviour
     {
     }
 
-    int aaa(int a, int b, int c)
+    int aaa()
     {
-        return a + b + c;
+        return 1;
+        Debug.Log("aaa");
     }
 }
